@@ -9,5 +9,4 @@ begin
     readln(rong);
     chu_vi := (dai + rong) * 2;
     writeln('Chu vi: ', chu_vi);
-    // readkey;
 end.
