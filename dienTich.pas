@@ -1,18 +1,13 @@
 program DienTichHinhChuNhat;
 uses crt;
 
-function dienTich(dai, rong: real): real;
-begin
-    dienTich := dai * rong;
-end;
-
 var dai, rong, dien_tich : real;
 begin
-    writeln('Chuong trinh tinh dien tich hinh chu nhat.');
-    writeln('Xin nhap chieu dai: ');
+    clrscr;
+    write('Chieu dai: ');
     readln(dai);
-    writeln('Xin nhap chieu rong: ');
+    writeln('Chieu rong: ');
     readln(rong);
-    dien_tich := dienTich(dai, rong);
+    dien_tich := dai * rong;
     writeln('Dien tich: ', dien_tich);
 end.

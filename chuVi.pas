@@ -1,19 +1,13 @@
 program ChuViHinhChuNhat;
 uses crt;
 
-function chuVi(dai, rong: real): real;
-begin
-    chuVi := (dai + rong) * 2;
-end;
-
 var dai, rong, chu_vi : real;
 begin
-    writeln('Chuong trinh tinh chu vi hinh chu nhat.');
-    writeln('Xin nhap chieu dai: ');
+    writeln('Chieu dai: ');
     readln(dai);
-    writeln('Xin nhap chieu rong: ');
+    writeln('Chieu rong: ');
     readln(rong);
-    chu_vi := chuVi(dai, rong);
+    chu_vi := (dai + rong) * 2;
     writeln('Chu vi: ', chu_vi);
     // readkey;
 end.
