@@ -8,7 +8,7 @@ end;
 
 var dai, rong, chu_vi : real;
 begin
-    writeln('Chuong trinh tinh dien tich hinh chu nhat.');
+    writeln('Chuong trinh tinh chu vi hinh chu nhat.');
     writeln('Xin nhap chieu dai: ');
     readln(dai);
     writeln('Xin nhap chieu rong: ');
